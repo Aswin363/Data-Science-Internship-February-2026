@@ -33,7 +33,7 @@ Token classification assigns labels to each word in a sentence, helping machines
 
 ---
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 * Python
 * Hugging Face Transformers
@@ -51,7 +51,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Key Concepts
+## 🧠 Key Concepts
 
 * Token Classification
 * POS Tagging (word-level task)
@@ -61,7 +61,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Model Implementation
+## 🏗️ Model Implementation
 
 * Model: `distilbert-base-uncased`
 * Used: `AutoModelForTokenClassification`
@@ -72,7 +72,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Training Details
+## 📈 Training Details
 
 * Learning Rate: `2e-5`
 * Batch Size: `4`
@@ -81,17 +81,19 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Evaluation Metrics
+## 📊 Evaluation Metrics
 
 * Precision
 * Recall
 * F1 Score
 
-👉 POS Tagging achieved better performance compared to Chunking due to its simpler nature.
+👉 **Chunking achieved better performance compared to POS Tagging based on evaluation results.**
+
+This shows that the model was able to learn phrase-level relationships effectively using contextual understanding.
 
 ---
 
-## Inference Example
+## 🔍 Inference Example
 
 **Input:**
 `John works at Google in California`
@@ -103,7 +105,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Comparison
+## ⚖️ Comparison
 
 | Feature    | POS Tagging | Chunking     |
 | ---------- | ----------- | ------------ |
@@ -113,7 +115,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Challenges Faced
+## ⚠️ Challenges Faced
 
 * Handling subword tokenization
 * Label alignment with tokens
@@ -121,7 +123,7 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-##  Key Learnings
+## 💡 Key Learnings
 
 * Transformers improve NLP performance using context
 * Proper preprocessing is critical
@@ -129,16 +131,17 @@ Raw Data → Tokenization → Label Alignment → Model Training → Evaluation 
 
 ---
 
-## Conclusion
+## 📌 Conclusion
 
 DistilBERT is highly effective for token classification tasks.
-POS tagging is simpler and more accurate, while chunking is more complex due to phrase-level understanding.
+
+POS tagging is simpler, but in this project **chunking achieved higher performance** due to better contextual understanding.
 
 This project demonstrates how transformer models can be applied to real-world NLP problems.
 
 ---
 
-## Submission Details
+## 🔗 Submission Details
 
 * 📁 Notebook: `.ipynb` file
 * 🔗 GitHub Repository: (Add your link here)
@@ -146,12 +149,12 @@ This project demonstrates how transformer models can be applied to real-world NL
 
 ---
 
-##  Acknowledgment
+## 🙌 Acknowledgment
 
 Thanks to **Innomatics Research Labs** for providing this learning opportunity and guidance throughout the internship.
 
 ---
 
-## Hashtags
+## 📌 Hashtags
 
 #NLP #ArtificialIntelligence #MachineLearning #DataScience #DeepLearning #BERT
